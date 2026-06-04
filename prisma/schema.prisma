@@ -1,0 +1,65 @@
+// Prisma schema for FFI course accounts + progress.
+//
+// Local dev uses SQLite. For production, change `provider` to "postgresql"
+// (or your DB of choice) and set DATABASE_URL accordingly, then run
+// `npx prisma migrate deploy`.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 String               @id @default(cuid())
+  email              String               @unique
+  name               String?
+  passwordHash       String
+  // "user" or "admin". Kept as a string for SQLite compatibility.
+  role               String               @default("user")
+  // Forces a password change at next login (used after an admin reset).
+  mustChangePassword Boolean              @default(false)
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+
+  progress           CourseProgress[]
+  resetTokens        PasswordResetToken[]
+}
+
+model CourseProgress {
+  id               String   @id @default(cuid())
+  userId           String
+  courseSlug       String
+  // JSON-encoded array of completed lesson slugs (SQLite has no JSON type).
+  completedLessons String   @default("[]")
+  updatedAt        DateTime @updatedAt
+
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseSlug])
+}
+
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  userId    String
+  // We store only a hash of the token, never the raw value.
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  // Email of the admin who performed the action (nullable for system actions).
+  actorEmail  String?
+  action      String
+  targetEmail String?
+  detail      String?
+  createdAt   DateTime @default(now())
+}
