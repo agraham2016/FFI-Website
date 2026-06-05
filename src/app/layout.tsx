@@ -39,9 +39,6 @@ export const metadata: Metadata = {
     title: site.name,
     description: site.description,
   },
-  icons: {
-    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
-  },
 };
 
 export default function RootLayout({
