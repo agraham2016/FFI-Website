@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid gap-12 py-16 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <Link href="/" className="inline-flex items-center gap-2.5">
-              <Logo className="h-10 w-10 text-brand-700" />
+              <Logo className="h-12 w-12" />
               <div className="leading-tight">
                 <div className="font-display text-base font-semibold text-ink">
                   Foundation for Independence

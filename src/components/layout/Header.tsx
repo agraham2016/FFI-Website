@@ -47,7 +47,7 @@ export function Header() {
             className="flex items-center gap-2.5 rounded-md py-1"
             aria-label={`${site.name} home`}
           >
-            <Logo className="h-9 w-9 text-brand-600" />
+            <Logo className="h-11 w-11" />
             <div className="hidden flex-col leading-tight sm:flex">
               <span className="font-display text-base font-semibold text-ink">
                 Foundation for Independence

@@ -19,7 +19,7 @@ export function AuthCard({
       <Container size="sm" className="relative">
         <div className="flex min-h-[70vh] flex-col items-center justify-center py-16">
           <Link href="/" className="mb-8 flex items-center gap-2.5" aria-label="Home">
-            <Logo className="h-9 w-9 text-brand-600" />
+            <Logo className="h-11 w-11" />
             <span className="font-display text-base font-semibold text-ink">
               Foundation for Independence
             </span>
