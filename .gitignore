@@ -1,5 +1,9 @@
 # dependencies
 /node_modules
+policy-manual/node_modules
+
+# policy manual build intermediates (the PDF itself is committed)
+policy-manual/dist/manual.html
 /.pnp
 .pnp.*
 .yarn/*

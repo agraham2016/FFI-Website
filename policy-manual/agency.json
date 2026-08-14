@@ -1,0 +1,20 @@
+{
+  "legalName": "Foundation for Independence Holdings LLC",
+  "dba": "Foundation for Independence",
+  "shortName": "FFI",
+  "address": "8729 E. Hazel Street, Mesa, AZ 85208",
+  "phone": "(602) 663-1664",
+  "afterHoursPhone": "(602) 663-1664",
+  "email": "foundationforindependence@gmail.com",
+  "website": "https://www.ffiaz.info",
+  "contractNumber": "[DDD Contract #]",
+  "manualVersion": "1.0",
+  "services": [
+    { "code": "HAI/HID", "name": "Habilitation, Supported Living (Hourly / Daily)", "category": "Residential / In-Home Habilitation" },
+    { "code": "GSE", "name": "Group Supported Employment", "category": "Employment Services" },
+    { "code": "ISE", "name": "Individual Supported Employment", "category": "Employment Services" },
+    { "code": "ESA", "name": "Employment Support Aide", "category": "Employment Services" },
+    { "code": "PTE", "name": "Pathways to Employment", "category": "Employment Services" },
+    { "code": "TR1", "name": "Transportation — Employment Related", "category": "Transportation Services" }
+  ]
+}

@@ -1,0 +1,272 @@
+/* FFI Policy Manual — print styles. Brand palette mirrors tailwind.config.ts:
+   brand teal 600 #28666d / 700 #205359 / 800 #1c4146; accent sand 500 #cc8235;
+   ink #111827 / muted #4b5563; surface sand #f3efe7. */
+
+:root {
+  --brand-50: #eef7f7;
+  --brand-100: #d6ebec;
+  --brand-200: #aed7da;
+  --brand-600: #28666d;
+  --brand-700: #205359;
+  --brand-800: #1c4146;
+  --accent-100: #f8ecd9;
+  --accent-500: #cc8235;
+  --accent-700: #8c4f23;
+  --ink: #111827;
+  --ink-muted: #4b5563;
+  --sand: #f3efe7;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--ink);
+  font-size: 10.5pt;
+  line-height: 1.55;
+  margin: 0;
+}
+
+h1, h2, h3, h4, .sans {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.page { page-break-after: always; }
+
+/* ---------- Cover ---------- */
+.cover {
+  position: relative;
+  min-height: 9in;
+}
+.cover-band {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 0.5in;
+  background: linear-gradient(90deg, var(--brand-800), var(--brand-600) 60%, var(--accent-500));
+  border-radius: 0 0 10px 10px;
+}
+.cover-inner {
+  padding-top: 1.4in;
+  text-align: center;
+}
+.cover-logo {
+  width: 2.2in;
+  margin: 0 auto 0.35in;
+  display: block;
+}
+.cover h1 {
+  font-size: 34pt;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--brand-800);
+  margin: 0 0 0.25in;
+}
+.cover-sub {
+  max-width: 5.4in;
+  margin: 0 auto 0.55in;
+  color: var(--ink-muted);
+  font-size: 11.5pt;
+}
+.cover-meta {
+  display: inline-block;
+  text-align: left;
+  border-top: 3px solid var(--accent-500);
+  background: var(--sand);
+  border-radius: 10px;
+  padding: 0.25in 0.35in;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9.5pt;
+}
+.cover-meta div { margin: 4px 0; }
+.cover-meta span {
+  display: inline-block;
+  width: 1.6in;
+  font-weight: 700;
+  color: var(--brand-700);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 8pt;
+}
+
+/* ---------- Front matter & general typography ---------- */
+.front h1, .toc h1 {
+  font-size: 20pt;
+  color: var(--brand-800);
+  border-bottom: 3px solid var(--accent-500);
+  padding-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+.front h2 {
+  font-size: 13pt;
+  color: var(--brand-700);
+  margin-top: 1.4em;
+}
+.front table, .services-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9.5pt;
+  margin: 0.8em 0;
+}
+.front th, .services-table th {
+  background: var(--brand-700);
+  color: #fff;
+  text-align: left;
+  padding: 6px 10px;
+}
+.front td, .services-table td {
+  border-bottom: 1px solid var(--brand-100);
+  padding: 6px 10px;
+}
+.front tr:nth-child(even) td, .services-table tr:nth-child(even) td { background: var(--brand-50); }
+
+/* ---------- TOC ---------- */
+.toc-list { list-style: none; padding: 0; font-family: Helvetica, Arial, sans-serif; }
+.toc-section {
+  font-weight: 700;
+  color: var(--brand-800);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 10pt;
+  margin-top: 1.1em;
+}
+.toc-section > ul { list-style: none; padding-left: 0; margin: 6px 0 0; }
+.toc-section > ul li {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 10pt;
+  padding: 3px 0 3px 6px;
+  border-bottom: 1px dotted var(--brand-200);
+}
+.toc-list a { color: var(--ink); text-decoration: none; }
+.toc-num {
+  display: inline-block;
+  min-width: 0.7in;
+  font-weight: 700;
+  color: var(--accent-700);
+}
+
+/* ---------- Section dividers ---------- */
+.section-divider {
+  min-height: 8.5in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divider-inner {
+  text-align: center;
+  border: 2px solid var(--brand-200);
+  border-top: 6px solid var(--accent-500);
+  border-radius: 14px;
+  padding: 0.9in 1in;
+  background: var(--brand-50);
+}
+.divider-logo { width: 1.3in; display: block; margin: 0 auto 0.3in; }
+.section-divider h1 {
+  color: var(--brand-800);
+  font-size: 24pt;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+/* ---------- Policy pages ---------- */
+.policy-head-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 3px solid var(--accent-500);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.policy-logo { width: 0.75in; flex: none; }
+.policy-kicker {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-700);
+  font-weight: 700;
+}
+.policy-head h1 {
+  font-size: 16.5pt;
+  color: var(--brand-800);
+  margin: 2px 0 0;
+  letter-spacing: -0.01em;
+}
+.meta-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 8.5pt;
+  margin: 6px 0 14px;
+}
+.meta-table th {
+  width: 1.5in;
+  background: var(--brand-50);
+  color: var(--brand-800);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 7.5pt;
+  text-align: left;
+  padding: 4px 8px;
+  border: 1px solid var(--brand-100);
+}
+.meta-table td {
+  padding: 4px 8px;
+  border: 1px solid var(--brand-100);
+}
+
+.policy-body h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  color: var(--brand-700);
+  border-left: 4px solid var(--accent-500);
+  padding-left: 8px;
+  margin: 1.3em 0 0.5em;
+  page-break-after: avoid;
+}
+.policy-body h3 {
+  font-size: 10.5pt;
+  color: var(--brand-800);
+  margin: 1em 0 0.35em;
+  page-break-after: avoid;
+}
+.policy-body p { margin: 0.45em 0; }
+.policy-body ul, .policy-body ol { margin: 0.4em 0 0.7em; padding-left: 1.35em; }
+.policy-body li { margin: 0.22em 0; }
+.policy-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9pt;
+  margin: 0.7em 0;
+  page-break-inside: avoid;
+}
+.policy-body th {
+  background: var(--brand-700);
+  color: #fff;
+  text-align: left;
+  padding: 5px 9px;
+}
+.policy-body td {
+  border-bottom: 1px solid var(--brand-100);
+  padding: 5px 9px;
+  vertical-align: top;
+}
+.policy-body tr:nth-child(even) td { background: var(--brand-50); }
+.policy-body blockquote {
+  margin: 0.7em 0;
+  padding: 8px 14px;
+  background: var(--accent-100);
+  border-left: 4px solid var(--accent-500);
+  border-radius: 0 8px 8px 0;
+  font-size: 9.5pt;
+}
+.policy-body blockquote p { margin: 0.2em 0; }
+.policy-body strong { color: var(--brand-800); }
+.policy-body hr {
+  border: none;
+  border-top: 1px solid var(--brand-200);
+  margin: 1.2em 0;
+}
