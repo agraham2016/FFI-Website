@@ -44,9 +44,17 @@ page, agency profile, table of contents, part dividers, and per-policy document-
 2. Update the policy's `reviewed:` date in front matter when reviewed.
 3. Re-run `npm run build` and share/print the PDF.
 
+## Forms prepared for DDD
+
+- `dist/DDD-2051A-FFI-Policy-Development-Tool.pdf` — Policy Development Tool with the vendor
+  name, contract number **QO7202618690**, and address on each checklist, and a Policy Page
+  Reference for every question (manual page number, or N/A when the question does not apply to
+  FFI's approved services). Yes/No and the state reviewer lines are blank for DDD.
+  Checklist 2.20 (Medical Marijuana) has no page-reference fields; DDD marked that checklist
+  under review. The agency policy is FFI-24, page 63 of the manual.
+- `dist/DDD-1709A-FFI-Readiness-Review.pdf` — readiness review checklist prepared the same way
+  (approved services checked, other services N/A, reviewer Yes/No and signatures left blank).
+
 ## Before submitting to DDD
 
-- Fill out the DDD-2051A checklist "Policy Page Reference" columns against the built PDF's page
-  numbers. The contract number on those forms is **QO7202618690** (also printed on the manual
-  cover and Agency Profile).
 - Have the Executive Director sign/date the manual per DDD submission instructions.
