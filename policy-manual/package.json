@@ -1,0 +1,15 @@
+{
+  "name": "ffi-policy-manual",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Foundation for Independence — DDD Qualified Vendor Policy Manual (source + branded PDF build)",
+  "scripts": {
+    "build": "node build.mjs",
+    "html": "node build.mjs --html-only"
+  },
+  "devDependencies": {
+    "marked": "^15.0.0",
+    "puppeteer": "^23.0.0"
+  }
+}
