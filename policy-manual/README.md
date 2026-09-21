@@ -46,7 +46,7 @@ page, agency profile, table of contents, part dividers, and per-policy document-
 
 ## Before submitting to DDD
 
-- Replace `[DDD Contract #]` in `agency.json` with the real contract number.
 - Fill out the DDD-2051A checklist "Policy Page Reference" columns against the built PDF's page
-  numbers.
+  numbers. The contract number on those forms is **QO7202618690** (also printed on the manual
+  cover and Agency Profile).
 - Have the Executive Director sign/date the manual per DDD submission instructions.

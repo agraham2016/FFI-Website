@@ -21,7 +21,7 @@ employment, and live with greater independence in their own community.
 | Phone (business and after-hours) | (602) 663-1664 |
 | Email | foundationforindependence@gmail.com |
 | Website | https://www.ffiaz.info |
-| DDD contract number | [DDD Contract #] |
+| DDD contract number | QO7202618690 |
 | OLCR certificate | LCR-237374-22582 |
 
 ## Services covered by this manual

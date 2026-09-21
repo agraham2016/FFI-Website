@@ -173,6 +173,7 @@ function buildHtml() {
     <div class="cover-meta">
       <div><span>Agency</span>${esc(agency.legalName)}</div>
       <div><span>DBA</span>${esc(agency.dba)}</div>
+      <div><span>Contract #</span>${esc(agency.contractNumber)}</div>
       <div><span>Address</span>${esc(agency.address)}</div>
       <div><span>Approved Services</span>${esc(agency.services.map((s) => s.code).join(", "))}</div>
       <div><span>Version</span>${esc(agency.manualVersion)} &middot; ${today}</div>
