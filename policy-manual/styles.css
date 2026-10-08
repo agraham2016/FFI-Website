@@ -139,7 +139,12 @@ h1, h2, h3, h4, .sans {
   padding: 3px 0 3px 6px;
   border-bottom: 1px dotted var(--brand-200);
 }
-.toc-list a { color: var(--ink); text-decoration: none; }
+.toc-list a { color: var(--ink); text-decoration: none; display: flex; align-items: baseline; }
+.toc-title { flex: 1; }
+.toc-page { margin-left: 12px; font-variant-numeric: tabular-nums; }
+
+/* Revision highlighting requested by DDD; set background to none for a clean copy. */
+mark { background: #fff176; color: inherit; padding: 0 1px; }
 .toc-num {
   display: inline-block;
   min-width: 0.7in;

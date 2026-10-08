@@ -86,7 +86,7 @@ function policyHeaderBlock(meta) {
   </table>`;
 }
 
-function buildHtml() {
+function buildHtml(pageMap = {}) {
   const policies = loadPolicies();
   const logo = logoDataUri();
   const css = readFileSync(join(__dirname, "styles.css"), "utf8");
@@ -109,7 +109,9 @@ function buildHtml() {
               (p) =>
                 `<li><a href="#${p.meta.number}"><span class="toc-num">${esc(
                   p.meta.number
-                )}</span> ${esc(p.meta.title)}</a></li>`
+                )}</span> <span class="toc-title">${esc(p.meta.title)}</span><mark class="toc-page">${
+                  pageMap[p.meta.number] ?? "00"
+                }</mark></a></li>`
             )
             .join("\n")}
         </ul>
@@ -236,15 +238,40 @@ async function toPdf(htmlPath, pdfPath) {
   await browser.close();
 }
 
+/** Map each policy number to the PDF page where its "FFI-NN: Title" heading appears. */
+async function policyStartPages(pdfPath) {
+  const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
+  const doc = await pdfjs.getDocument({ data: new Uint8Array(readFileSync(pdfPath)) }).promise;
+  const map = {};
+  for (let n = 1; n <= doc.numPages; n++) {
+    const page = await doc.getPage(n);
+    const text = (await page.getTextContent()).items.map((i) => i.str).join(" ");
+    for (const m of text.matchAll(/\b(FFI-\d{2}[A-Z]?):\s/g)) map[m[1]] ??= n;
+  }
+  await doc.destroy();
+  return map;
+}
+
 async function main() {
   mkdirSync(DIST, { recursive: true });
-  const html = buildHtml();
   const htmlPath = join(DIST, "manual.html");
-  writeFileSync(htmlPath, html);
-  console.log(`Wrote ${htmlPath}`);
-  if (process.argv.includes("--html-only")) return;
+  if (process.argv.includes("--html-only")) {
+    writeFileSync(htmlPath, buildHtml());
+    console.log(`Wrote ${htmlPath}`);
+    return;
+  }
   const pdfPath = join(DIST, "FFI-Policy-Manual.pdf");
-  await toPdf(htmlPath, pdfPath);
+  // TOC page numbers come from a first render; placeholders keep the TOC layout identical between passes.
+  let pageMap = {};
+  for (let pass = 1; pass <= 3; pass++) {
+    writeFileSync(htmlPath, buildHtml(pageMap));
+    await toPdf(htmlPath, pdfPath);
+    const found = await policyStartPages(pdfPath);
+    if (JSON.stringify(found) === JSON.stringify(pageMap)) break;
+    if (pass === 3) throw new Error("TOC page numbers did not stabilize");
+    pageMap = found;
+  }
+  console.log(`Wrote ${htmlPath}`);
   console.log(`Wrote ${pdfPath}`);
 }
 
