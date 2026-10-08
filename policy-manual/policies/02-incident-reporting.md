@@ -46,26 +46,26 @@ Member health and safety always comes first: staff stabilize the situation, rend
    hours) the same day. Allegations of abuse, neglect, or exploitation additionally trigger
    mandatory reports to APS (1-877-767-2385), DCS (1-888-767-2445), and/or law enforcement or
    Tribal Social Services as applicable, before the end of the shift.
-2. **Written report.** All incidents are reported on the Division's Incident Report form,
+2. **Written report.** <mark>All incidents are reported on the Division's Incident Report form,
    [DDD-0191A](https://des.az.gov/digital-library/ddd-incident-report-english), using the current
    version from the DES Document Center. The form is completed electronically; handwritten forms
-   are not accepted. At a minimum, every report includes:
-   - member name, date of birth, and AHCCCS ID;
-   - date, time, and location of the incident, and the vendor and site responsible;
-   - staff involved and witnesses;
-   - incident type (medication, death, or other);
-   - an objective, chronological description of what happened;
-   - injuries and any medical treatment;
-   - immediate actions taken;
-   - notifications made (guardian, Support Coordinator, police, APS/DCS), with names and times;
-   - follow-up and corrective action; and
-   - the name of the person completing the report and the reviewer.
+   are not accepted. At a minimum, every report includes:</mark>
+   - <mark>member name, date of birth, and AHCCCS ID;</mark>
+   - <mark>date, time, and location of the incident, and the vendor and site responsible;</mark>
+   - <mark>staff involved and witnesses;</mark>
+   - <mark>incident type (medication, death, or other);</mark>
+   - <mark>an objective, chronological description of what happened;</mark>
+   - <mark>injuries and any medical treatment;</mark>
+   - <mark>immediate actions taken;</mark>
+   - <mark>notifications made (guardian, Support Coordinator, police, APS/DCS), with names and times;</mark>
+   - <mark>follow-up and corrective action; and</mark>
+   - <mark>the name of the person completing the report and the reviewer.</mark>
 
-   Timeframes:
-   - Sentinel and serious incidents: reported to the Division immediately by phone, using the
+   <mark>Timeframes:</mark>
+   - <mark>Sentinel and serious incidents: reported to the Division immediately by phone, using the
      after-hours line (602) 375-1403 or 1-855-375-1403 outside business hours, with the written
-     report submitted within 24 hours of the incident.
-   - All other incidents: written report submitted no later than the next business day.
+     report submitted within 24 hours of the incident.</mark>
+   - <mark>All other incidents: written report submitted no later than the next business day.</mark>
 3. **Notifications.** The Program Manager or Employment Services Manager notifies the member's
    guardian/responsible person, DDD Support Coordinator, and (when involved in the member's care)
    Behavioral Health providers, the same day for serious incidents and within one business day
@@ -113,7 +113,7 @@ corrective action plans with assigned owners and completion dates.
 
 ## 10. Forms and references
 
-**Forms:** [DDD-0191A Incident Report](https://des.az.gov/digital-library/ddd-incident-report-english); Provider Quick Guide for Incident Reporting; FFI
+**Forms:** <mark>[DDD-0191A Incident Report](https://des.az.gov/digital-library/ddd-incident-report-english)</mark>; Provider Quick Guide for Incident Reporting; FFI
 notification log.
 
 **References:** QVA Standard Terms and Conditions and Service Requirements; DDD Operations Policy
