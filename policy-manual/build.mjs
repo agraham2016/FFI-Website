@@ -109,9 +109,9 @@ function buildHtml(pageMap = {}) {
               (p) =>
                 `<li><a href="#${p.meta.number}"><span class="toc-num">${esc(
                   p.meta.number
-                )}</span> <span class="toc-title">${esc(p.meta.title)}</span><mark class="toc-page">${
+                )}</span> <span class="toc-title">${esc(p.meta.title)}</span><span class="toc-page">${
                   pageMap[p.meta.number] ?? "00"
-                }</mark></a></li>`
+                }</span></a></li>`
             )
             .join("\n")}
         </ul>
