@@ -45,6 +45,9 @@ Before working with members, every direct service staff member must have on file
     Support certification complete P.R.O.U.D. by December 31, 2027 (FFI-15 §2).</mark>
 14. **Verification of date of hire, AZ driver's license (if driving), I-9 / E-Verify lawful
     presence, and previous experience.**
+15. <mark>**Direct Care Worker (DCW) Training, as applicable:** when a service FFI provides requires
+    AHCCCS DCW training and testing, the staff member completes it before providing that service,
+    and completion is recorded in the training matrix (§3.3).</mark>
 
 ## 3. Training plan
 
