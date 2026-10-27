@@ -2,10 +2,11 @@
 number: FFI-25
 title: Pool & Swimming Safety
 section: Part C — Service Delivery & Member Rights
-pdt: 2.25
+pdt: 2.24
 owner: Program Manager (Supported Living)
 appliesTo: HAI/HID and community activities in all services
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

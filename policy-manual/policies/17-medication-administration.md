@@ -2,10 +2,11 @@
 number: FFI-17
 title: Medication Administration
 section: Part C — Service Delivery & Member Rights
-pdt: 2.19
+pdt: 2.16
 owner: Program Manager (Supported Living)
 appliesTo: Habilitation, Supported Living (HAI/HID)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -40,7 +41,7 @@ Policy Manual Chapter 310-V.
 5. **Disposal:** expired or discontinued medications are documented and disposed of per
    pharmacy/DEA guidance (witnessed, logged).
 6. **PRN and behavior-modifying medications:** "as needed" administrations are documented with
-   reason, time, and outcome; behavior-modifying medications follow FFI-15 §4.
+   reason, time, and outcome; behavior-modifying medications follow FFI-15 <mark>§6</mark>.
 
 ## 4. Physician orders
 
@@ -72,7 +73,7 @@ removal from medication duties, retraining, and progressive discipline.
 
 ## 7. Forms and references
 
-**Forms:** MAR; medication error report (with DDD-0191A when reportable); medication disposal log;
+**Forms:** MAR; medication error report (<mark>entered in the AHCCCS QM Portal</mark> when reportable); medication disposal log;
 physician order file.
 
 **References:** A.A.C. R6-6-806.C, R6-6-807.A, R6-6-808.G & I, R6-6-809.C, R6-6-902.B, R6-6-903.A,

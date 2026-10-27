@@ -2,10 +2,11 @@
 number: FFI-27
 title: Transportation
 section: Part D — Operations & Safety
-pdt: 2.31
+pdt: 2.32
 owner: Employment Services Manager
 appliesTo: TR1 (Employment-Related Transportation); member transport within HAI/HID, GSE, ISE, PTE
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

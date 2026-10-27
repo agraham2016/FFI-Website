@@ -2,16 +2,17 @@
 number: FFI-24
 title: Medical Marijuana
 section: Part C — Service Delivery & Member Rights
-pdt: 2.20
+pdt: 2.17
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
 
 To set interim standards for members who hold a valid Arizona medical marijuana card, pending
-final Division guidance. *Note: the corresponding DDD-2051A checklist (2.20) is under review by
+final Division guidance. *Note: the corresponding DDD-2051A checklist (2.17) is under review by
 the Division of Developmental Disabilities; FFI will align this policy with Division guidance when
 issued.*
 
@@ -25,7 +26,7 @@ issued.*
   the member's private space, inaccessible to other members.
 - Use is documented in the member's planning documents (prescribing/certifying provider, form,
   parameters), reviewed with the planning team, and coordinated with prescribers given medication
-  interactions (FFI-15 §4, FFI-17).
+  interactions (FFI-15 <mark>§6</mark>, FFI-17).
 - Staff use or possession at any service setting or while on duty is prohibited regardless of
   cardholder status.
 - Smoked or vaporized use follows the smoke-free rules in FFI-23 §3.

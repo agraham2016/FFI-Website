@@ -144,7 +144,8 @@ h1, h2, h3, h4, .sans {
 .toc-page { margin-left: 12px; font-variant-numeric: tabular-nums; }
 
 /* Revision highlighting requested by DDD; set background to none for a clean copy. */
-mark { background: #fff176; color: inherit; padding: 0 1px; }
+mark, .rev p, .rev li { background: #fff176; color: inherit; }
+mark { padding: 0 1px; }
 .toc-num {
   display: inline-block;
   min-width: 0.7in;

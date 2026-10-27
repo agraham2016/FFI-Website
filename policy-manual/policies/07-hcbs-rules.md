@@ -6,6 +6,7 @@ pdt: 1.3.1 / 1.5 (HCBS Rules row)
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

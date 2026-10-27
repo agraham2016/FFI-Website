@@ -2,10 +2,11 @@
 number: FFI-01
 title: HIPAA & Confidentiality
 section: Part A — Governance & Compliance
-pdt: 2.17
+pdt: 2.14
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -106,7 +107,7 @@ to the Division per FFI-02, with an internal review to correct the system weakne
 ## 8. Forms and references
 
 **Forms:** FFI Release of Information; FFI Photography/Media Consent; FFI Confidentiality
-Agreement (staff); Breach/Incident Report (DDD-0191A).
+Agreement (staff); <mark>AHCCCS QM Portal IAD report (FFI-02)</mark> for breaches that are reportable incidents.
 
 **References:** QVA Standard Terms and Conditions; DDD Medical Policy Manual Ch. 550;
 A.R.S. § 36-568.01, § 36-568.02; A.A.C. R6-6-808.G, R6-6-809.N, R6-6-810.A & B, R6-6-906.B; HIPAA

@@ -2,10 +2,11 @@
 number: FFI-06
 title: Quality Management Plan
 section: Part A — Governance & Compliance
-pdt: 2.26
+pdt: 2.27
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

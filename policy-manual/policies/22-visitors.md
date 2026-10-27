@@ -2,10 +2,11 @@
 number: FFI-22
 title: Visitors & Visitation
 section: Part C — Service Delivery & Member Rights
-pdt: 2.32
+pdt: 2.33
 owner: Program Manager (Supported Living)
 appliesTo: HAI/HID settings and FFI program sites
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

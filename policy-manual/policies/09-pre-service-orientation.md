@@ -2,10 +2,11 @@
 number: FFI-09
 title: Pre-Service Orientation
 section: Part B — Personnel & Training
-pdt: 2.24
+pdt: 2.25
 owner: Training Coordinator
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -36,7 +37,14 @@ R6-6-1512.C, and R6-6-1527.
    through their supervisor (with confidentiality safeguards per FFI-01).
 5. **Submission.** Completed and updated orientation documentation is sent to the member's DDD
    Support Coordinator, and updated whenever the member's needs materially change.
-6. **Matching and mutual agreement.** FFI matches DSPs to members based on member needs and
+6. <mark>**Referrals and staff qualifications.** When a member is referred to FFI through the vendor call
+   process or other means, the Program Manager or Employment Services Manager reviews the member's
+   Planning Document before accepting the referral and identifies the DSP who will serve the
+   member. FFI accepts the referral only when the identified DSP has, or will complete before the
+   first shift, the skills and training the Planning Document requires (for example, member-specific
+   health tasks, behavior plan training, P.R.O.U.D., or communication needs). The skills match is
+   documented in the member file.</mark>
+7. **Matching and mutual agreement.** FFI matches DSPs to members based on member needs and
    preferences (skills, language, schedule, personality, gender preference for personal care) and
    confirms mutual agreement to serve — the member/responsible person and the DSP each confirm the
    match; either may request a change at any time.

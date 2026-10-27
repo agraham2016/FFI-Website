@@ -2,10 +2,11 @@
 number: FFI-21
 title: Shift Change Communication
 section: Part C — Service Delivery & Member Rights
-pdt: 2.28
+pdt: 2.29
 owner: Program Manager (Supported Living)
 appliesTo: Habilitation, Supported Living (HAI/HID) — sites with staff shift transitions
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

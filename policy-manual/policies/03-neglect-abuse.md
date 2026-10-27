@@ -2,10 +2,11 @@
 number: FFI-03
 title: Neglect, Abuse & Exploitation Prevention
 section: Part A — Governance & Compliance
-pdt: 2.21
+pdt: 2.26
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -53,8 +54,8 @@ staff report what they observe regardless of where it may have occurred.
    aid, and call 911 if there is injury or danger.
 2. **Report.** Verbally report immediately to APS (1-877-SOS-ADULT) for adults or DCS
    (1-888-SOS-CHILD) for children, law enforcement and/or Tribal Protective Services as
-   applicable, and the Division; notify the On-Call Supervisor. Complete DDD-0191A within 24
-   hours (see FFI-02).
+   applicable, and the Division; notify the On-Call Supervisor. <mark>The incident is entered into the
+   AHCCCS QM Portal within the timeframes in FFI-02.</mark>
 3. **Remove implicated staff.** Any staff member alleged to have abused, neglected, or exploited a
    member is removed from member contact immediately pending investigation outcome.
 4. **Immediate interventions.** The Program Manager/Employment Services Manager puts protective
@@ -94,7 +95,7 @@ referral to authorities, and system-level corrective action plans (CAPs) for any
 
 ## 10. Forms and references
 
-**Forms:** DDD-0191A; "Everyone Has the Right to be Safe" poster; FFI corrective action plan
+**Forms:** <mark>AHCCCS QM Portal IAD report (FFI-02)</mark>; "Everyone Has the Right to be Safe" poster; FFI corrective action plan
 template.
 
 **References:** QVA Standard Terms and Conditions; DDD Operations Policy Manual Ch. 2000, 6000,

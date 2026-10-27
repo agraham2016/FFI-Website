@@ -1,6 +1,6 @@
 # How This Manual Is Organized
 
-This manual was developed using the Division's **Policy Development Tool (DDD-2051A, 07/25)** and is
+This manual was developed using the Division's **Policy Development Tool (DDD-2051A, <mark>09/26</mark>)** and is
 organized so each FFI policy maps directly to the applicable DDD policy development checklist. The
 policy set reflects the services FFI is approved to provide (Supported Living and Employment
 Services, with employment-related Transportation); checklists that apply only to services FFI does

@@ -2,10 +2,11 @@
 number: FFI-23
 title: Drugs, Alcohol & Smoking
 section: Part C — Service Delivery & Member Rights
-pdt: 2.12
+pdt: 2.10
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -66,7 +67,7 @@ action** (procedure or environment changes) to prevent recurrence.
 
 ## 8. Forms and references
 
-**Forms:** Planning Document parameters; incident report (DDD-0191A) where applicable.
+**Forms:** Planning Document parameters; <mark>AHCCCS QM Portal IAD report (FFI-02)</mark> where applicable.
 
 **References:** DDD Operations Policy Manual Ch. 1001A, 1001B; A.A.C. R6-6-809.E & F,
 R6-6-808.G–I, R6-6-1004.03; A.R.S. § 36-568.02; Federal Controlled Substances Act (21 U.S.C.

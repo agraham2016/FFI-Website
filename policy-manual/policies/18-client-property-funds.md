@@ -2,10 +2,11 @@
 number: FFI-18
 title: Client Property & Funds Management
 section: Part C — Service Delivery & Member Rights
-pdt: 2.04
+pdt: 2.18
 owner: Executive Director
 appliesTo: Habilitation, Supported Living (HAI/HID); applicable member funds handling in all services
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -62,8 +63,18 @@ Support Coordinator as changes are made.
 
 ## 7. Lost or stolen funds/property
 
-Lost or stolen member funds or property are reported to the member/responsible person and **to the
-Division within 10 working days**, and are **replaced by FFI within 10 working days** where loss
+<mark>When member funds or property are discovered lost or stolen, the Program Manager:</mark>
+
+1. <mark>notifies the member/responsible person and the Executive Director the same day;</mark>
+2. <mark>reports the loss or theft to the Division by the close of the next business day following its
+   discovery;</mark>
+3. <mark>enters the incident into the AHCCCS QM Portal no later than two business days after the loss
+   or theft occurred or FFI was notified of it (FFI-02); and</mark>
+4. <mark>for missing or lost member funds or property valued at less than $1,000, completes the
+   Division reporting and resolution steps within 10 days, as set by the Division Operations
+   Policy Manual.</mark>
+
+Lost or stolen funds or property are **replaced by FFI within 10 working days** where the loss
 resulted from FFI's handling. FFI documents resolution and any repayment.
 
 ## 8. Representative payees

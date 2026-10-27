@@ -2,10 +2,11 @@
 number: FFI-10
 title: Workforce Development
 section: Part B — Personnel & Training
-pdt: 2.33
+pdt: 2.34
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -15,7 +16,9 @@ Chapter 63, DDD Operations Policy Manual Chapter 407, and AHCCCS ACOM 407.
 
 ## 2. Policy
 
-- FFI develops and maintains a written **Workforce Development Plan** (WDP).
+- FFI develops and maintains a written **Workforce Development Plan** (WDP), <mark>using the Division's
+  Qualified Vendor Workforce Development Plan Tool Checklist (DDD-2280A FORFF) to develop the plan
+  and to confirm, at each annual update, that every required component is included.</mark>
 - The WDP contains the required components, including measurable goals for recruitment,
   retention, training, and career development of direct support staff.
 - The WDP is **reviewed and updated at least annually**, including a written assessment of
@@ -52,7 +55,7 @@ Failure to maintain or produce the WDP is a compliance finding handled with an i
 
 ## 6. Forms and references
 
-**Forms:** FFI Workforce Development Plan template; quarterly workforce metrics dashboard.
+**Forms:** <mark>DDD-2280A FORFF Qualified Vendor Workforce Development Plan Tool Checklist;</mark> FFI Workforce Development Plan template; quarterly workforce metrics dashboard.
 
 **References:** DDD Provider Policy Manual Ch. 63; DDD Operations Policy Manual Ch. 407; AHCCCS
 ACOM 407.

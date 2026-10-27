@@ -6,6 +6,7 @@ pdt: 2.06 (incl. Pandemic Plan)
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -19,6 +20,20 @@ Plan, I; Standard Terms and Conditions) and DDD Provider Policy Manual Chapter 3
 The plan's first priority is the member: staff on duty secure member safety (evacuate, shelter,
 render aid, call 911 as needed), then notify the On-Call Supervisor at (602) 663-1664, who
 activates this plan and required notifications (FFI-02, FFI-12).
+
+<mark>**Notification to the Division.** When an emergency affects members or FFI's ability to deliver
+services, the Executive Director (or designee) notifies the Division the same day:</mark>
+
+- <mark>**Provider Network Support** — for all services, FFI reports the emergency, the members and
+  services affected, and the steps FFI is taking to Provider Network Support
+  (providernetworksupport@azdes.gov); and</mark>
+- <mark>**Support Coordinator** — the Program Manager or Employment Services Manager notifies each
+  affected member's DDD Support Coordinator, including any change in where or how services will
+  be delivered.</mark>
+
+<mark>Each notification is documented (date, time, person contacted, information given), and the
+Division and Support Coordinators are updated as the situation changes and when normal operations
+resume.</mark>
 
 ## 3. Workforce contingency
 

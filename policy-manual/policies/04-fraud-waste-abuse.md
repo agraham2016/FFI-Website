@@ -2,10 +2,11 @@
 number: FFI-04
 title: Fraud, Waste & Abuse / False Claims
 section: Part A — Governance & Compliance
-pdt: 2.15
+pdt: 2.12
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

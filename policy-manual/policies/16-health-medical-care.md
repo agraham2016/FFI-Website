@@ -2,10 +2,11 @@
 number: FFI-16
 title: Health & Medical Care
 section: Part C — Service Delivery & Member Rights
-pdt: 2.16
+pdt: 2.13
 owner: Program Manager (Supported Living)
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -47,9 +48,15 @@ CPR/First Aid) in:
 3. Infectious disease precautions and the notification process (exposure reporting, standard
    precautions);
 4. Response to non-emergency conditions that require medical attention (when to call the PCP,
-   nurse line, or responsible person); and
+   nurse line, or responsible person);
 5. Medical emergency procedures and rendering emergency care (911, CPR/First Aid, staying with
-   the member).
+   the member); and
+6. <mark>Non-skilled tasks in the Nursing Assessment: when the Division's Health Care Services Nursing
+   Assessment for a member lists non-skilled tasks for direct care staff, each assigned staff
+   member is trained on those tasks for that member, and competency is verified by the
+   supervisor (or a licensed nurse where the assessment calls for one), before performing them.
+   Training is documented in the staff training file and repeated whenever the Nursing
+   Assessment changes.</mark>
 
 ## 5. Monitoring, compliance, and corrective action
 

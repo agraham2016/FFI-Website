@@ -2,10 +2,11 @@
 number: FFI-05
 title: Record Retention, Data Security & Timesheet Verification
 section: Part A — Governance & Compliance
-pdt: 2.27
+pdt: 2.28
 owner: Quality & Compliance Coordinator
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

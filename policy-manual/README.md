@@ -17,7 +17,7 @@ Policy Development Tool (DDD-2051A) for FFI's approved services:
 policy-manual/
   agency.json          Agency identity used on the cover & headers (edit contract # here)
   front-matter/        Agency profile + how-to-use pages
-  policies/            One markdown file per policy (FFI-01 ... FFI-27)
+  policies/            One markdown file per policy (FFI-01 ... FFI-28)
   styles.css           Print design (FFI brand colors + logo)
   build.mjs            Builds dist/manual.html and dist/FFI-Policy-Manual.pdf
 ```

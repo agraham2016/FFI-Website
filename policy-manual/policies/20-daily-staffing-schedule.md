@@ -6,6 +6,7 @@ pdt: 2.08
 owner: Program Manager (Supported Living)
 appliesTo: Habilitation, Supported Living — daily/IDLA settings (HID)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

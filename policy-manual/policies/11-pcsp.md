@@ -2,10 +2,11 @@
 number: FFI-11
 title: Person-Centered Service Plan (PCSP)
 section: Part C — Service Delivery & Member Rights
-pdt: 2.23
+pdt: 2.20
 owner: Program Manager (Supported Living) / Employment Services Manager
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

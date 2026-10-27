@@ -2,10 +2,11 @@
 number: FFI-19
 title: Staff-to-Client Ratios
 section: Part C — Service Delivery & Member Rights
-pdt: 2.30
+pdt: 2.31
 owner: Program Manager (Supported Living) / Employment Services Manager
 appliesTo: HAI/HID, GSE, ISE, ESA, PTE
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose

@@ -2,10 +2,11 @@
 number: FFI-08
 title: Personnel, Hiring & Training Plan
 section: Part B — Personnel & Training
-pdt: 2.22
+pdt: 2.23
 owner: Executive Director
 appliesTo: All FFI services (HAI/HID, GSE, ISE, ESA, PTE, TR1)
 effective: August 14, 2026
+reviewed: October 26, 2026
 ---
 
 ## 1. Purpose
@@ -38,8 +39,10 @@ Before working with members, every direct service staff member must have on file
     instructor.
 12. **Any additional training required by an assigned member's Planning Document** before serving
     that member.
-13. **Prevention and Support (PS/Article 9 physical management)** certification where required by a
-    member's plan.
+13. <mark>**P.R.O.U.D. (Providing Respectful Opportunities and Understanding De-escalation)**, if
+    applicable: required before working with a member who has a behavior plan or documented unsafe
+    behavior. DSPs hired after July 31, 2026 complete P.R.O.U.D.; staff with current Prevention &
+    Support certification complete P.R.O.U.D. by December 31, 2027 (FFI-15 §2).</mark>
 14. **Verification of date of hire, AZ driver's license (if driving), I-9 / E-Verify lawful
     presence, and previous experience.**
 
@@ -65,7 +68,7 @@ practice and the PCSP process (FFI-11); cultural competency (FFI-13); health and
 ### 3.3 Tracking system
 
 The Training Coordinator maintains a training and qualification matrix for every employee (dates
-completed, expiration dates for CPR/First Aid/FPC/Article 9, member-specific trainings) with
+completed, expiration dates for CPR/First Aid/FPC/Article 9<mark>/P.R.O.U.D.</mark>, member-specific trainings) with
 automated expiry reminders at 60/30/7 days. FFI's license/training tracking system is available to
 the Division on request.
 
@@ -76,8 +79,7 @@ the Division on request.
 2. Every policy in this manual identifies its supporting training.
 3. Training frequency is defined per topic (onboarding, annual refresher, 2-year CPR/First Aid,
    3-year Article 9/LCR-1034A).
-4. Training method is identified per topic (in-person for skills like CPR and Prevention &
-   Support; in-person or online for knowledge topics).
+4. Training method is identified per topic (in-person for skills like CPR and <mark>P.R.O.U.D.</mark>; in-person or online for knowledge topics).
 5. Comprehension and competency are verified by quiz, skills demonstration, or supervisor
    observation, and documented.
 6. Compliance monitoring: the Quality & Compliance Coordinator audits personnel files quarterly
